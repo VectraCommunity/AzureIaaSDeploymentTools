@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Do not modify
 key=$(cat ../keys/key.pub)
 rg=($(jq -r '.parameters.virtualNetwork.value.resourceGroup' ../shared/params.json))
